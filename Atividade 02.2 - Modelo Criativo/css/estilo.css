@@ -1,0 +1,45 @@
+.rodape{
+	background-color: #F2F2F2; /* cinza */
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .nav-item.show .nav-link,
+.nav-pills .nav-item.show .nav-link:hover {
+    background-color: black;
+ }
+
+ .nav-link,
+ .nav-link:hover,
+ .nav-link a:focus,
+  a, a:focus{
+ 	color: black;
+ }
+
+ .btn-black{
+ 	background-color: black;
+ 	border-color: black;
+ 	color: #fff;
+ }
+
+.banner {
+	background: -moz-linear-gradient(-45deg, #cf1717 0%, black 25%);
+	background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#cf1717), color-stop(25%,black));
+	background: -webkit-linear-gradient(-45deg, #cf1717 0%,black 25%);
+	background: -o-linear-gradient(-45deg, #cf1717 0%,black 25%);
+	background: -ms-linear-gradient(-45deg, #cf1717 0%,black 25%);
+	background: linear-gradient(135deg, #cf1717 0%,black 25%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cf1717', endColorstr='black',GradientType=1 );
+
+	color: #fff;
+}
+
+#map {
+	width: 100%;
+	height: 300px;
+	background-color: grey;
+}
+
+.contato{
+	list-style: none; 
+	padding: 0px;
+}
